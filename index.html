@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clean up 4.0</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Link Font Awesome để sử dụng icon -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Thanh menu -->
+    <header>
+      <nav>
+        <div class="logo">
+          <i class="fas fa-broom"></i>
+          <span class="pet">Clean up</span>
+          <span class="world">4.0</span>
+        </div>
+        <ul>
+          <li><a href="#home">Trang chủ</a></li>
+          <li><a href="#services">Dịch vụ</a></li>
+          <li><a href="#product">Sản phẩm</a></li>
+          <li><a href="#service-package">Gói dịch vụ</a></li>
+          <li><a href="#sale">Khuyến mãi</a></li>
+          <li><a href="#contact-footer">Liên hệ</a></li>
+          <!-- Change href to #contact-footer -->
+        </ul>
+        <!-- Thêm icon giỏ hàng và đăng nhập -->
+        <div class="nav-icons">
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#"><i class="fas fa-user"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Trang chủ -->
+    <section id="home">
+      <div class="home-content">
+        <h3>Sự hài lòng của bạn</h3>
+        <h3>là ưu tiên</h3>
+        <h3>của chúng tôi.</h3>
+        <a href="#services" class="btn">Khám phá dịch vụ</a>
+      </div>
+      <div class="home-image">
+        <img src="/image/clean-up-4.0.png" alt="Thú cưng đáng yêu" />
+      </div>
+    </section>
+
+    <!-- Dịch vụ -->
+    <section id="services">
+      <h2>Dịch vụ Dọn Dẹp 4.0</h2>
+      <div class="service-container">
+        <div class="service-item">
+          <img
+            src="/image/lau-nha.jpg"
+            alt="Robot lau nhà"
+            class="service-image"
+          />
+          <h3>Robot lau nhà</h3>
+          <div class="service-footer">
+            <button class="btn-open">Mở</button>
+            <button class="btn-show-more">Hiện thêm</button>
+          </div>
+        </div>
+        <div class="service-item">
+          <img
+            src="/image/hutbui1.jpg"
+            alt="Máy hút bụi tự động"
+            class="service-image"
+          />
+          <div>
+            <h3>Máy hút bụi tự động</h3>
+          </div>
+          <div class="service-footer">
+            <button class="btn-open">Mở</button>
+            <button class="btn-show-more">Hiện thêm</button>
+          </div>
+        </div>
+        <div class="service-item">
+          <img
+            src="/image/vs-may-lanh.jpg"
+            alt="Vệ sinh máy lạnh"
+            class="service-image"
+          />
+          <h3>Vệ sinh máy lạnh</h3>
+          <div class="service-footer">
+            <button class="btn-open">Mở</button>
+            <button class="btn-show-more">Hiện thêm</button>
+          </div>
+        </div>
+        <div class="service-item">
+          <img
+            src="/image/don-dep.jpg"
+            alt="Dọn dẹp nhà cửa"
+            class="service-image"
+          />
+          <h3>Dọn dẹp nhà cửa</h3>
+          <div class="service-footer">
+            <button class="btn-open">Mở</button>
+            <button class="btn-show-more">Hiện thêm</button>
+          </div>
+        </div>
+        <div class="service-item">
+          <img
+            src="/image/giat-ui.png"
+            alt="Dịch vụ giặt ủi"
+            class="service-image"
+          />
+          <h3>Dịch vụ giặt ủi</h3>
+          <div class="service-footer">
+            <button class="btn-open">Mở</button>
+            <button class="btn-show-more">Hiện thêm</button>
+          </div>
+        </div>
+        <div class="service-item">
+          <img
+            src="/image/vs-sofa.jpg"
+            alt="Vệ sinh ghế sofa"
+            class="service-image"
+          />
+          <h3>Vệ sinh ghế sofa</h3>
+          <div class="service-footer">
+            <button class="btn-open">Mở</button>
+            <button class="btn-show-more">Hiện thêm</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sản phẩm -->
+    <section id="product">
+      <h2>Sản phẩm</h2>
+
+      <div class="product-container">
+        <!-- Product Item 1: Robot lau nhà -->
+        <div class="product-item">
+          <img
+            src="/image/lau-nha.jpg"
+            alt="Robot lau nhà thông minh"
+            class="product-image"
+          />
+          <h3 class="product-name">Robot lau nhà thông minh</h3>
+          <p class="product-description">
+            Robot lau nhà tự động, hoạt động êm ái, làm sạch mọi bề mặt và dễ
+            dàng điều khiển qua điện thoại.
+          </p>
+          <div class="product-rating">Đánh giá: ★★★★★</div>
+          <p class="product-price">Giá: 3.500.000 VND</p>
+          <button class="btn-add-to-cart">Thêm vào giỏ hàng</button>
+        </div>
+
+        <!-- Product Item 2: Máy hút bụi -->
+        <div class="product-item">
+          <img
+            src="/image/hutbui1.jpg"
+            alt="Máy hút bụi tự động"
+            class="product-image"
+          />
+          <h3 class="product-name">Máy hút bụi tự động</h3>
+          <p class="product-description">
+            Máy hút bụi với lực hút mạnh mẽ, thích hợp cho mọi loại sàn nhà và
+            thảm. Hộp chứa bụi dễ tháo lắp.
+          </p>
+          <div class="product-rating">Đánh giá: ★★★★☆</div>
+          <p class="product-price">Giá: 2.800.000 VND</p>
+          <button class="btn-add-to-cart">Thêm vào giỏ hàng</button>
+        </div>
+
+        <!-- Product Item 3: Máy phun hơi nước -->
+        <div class="product-item">
+          <img
+            src="/image/may-phun-hoi-nuoc.jpg"
+            alt="Máy phun hơi nước"
+            class="product-image"
+          />
+          <h3 class="product-name">Máy phun hơi nước</h3>
+          <p class="product-description">
+            Máy phun hơi nước làm sạch bằng áp lực nước nóng, diệt khuẩn hiệu
+            quả, phù hợp để làm sạch ghế sofa và rèm cửa.
+          </p>
+          <div class="product-rating">Đánh giá: ★★★★★</div>
+          <p class="product-price">Giá: 2.200.000 VND</p>
+          <button class="btn-add-to-cart">Thêm vào giỏ hàng</button>
+        </div>
+      </div>
+
+      <p>
+        Chúng tôi cung cấp nhiều loại sản phẩm dọn dẹp chất lượng cao cho mọi
+        gia đình.
+      </p>
+    </section>
+
+    <!-- Gói dịch vụ -->
+    <section id="service-package">
+      <h2>Gói dịch vụ dọn dẹp</h2>
+
+      <div class="service-container">
+        <!-- Basic Package -->
+        <div class="service-package">
+          <h3>Gói Cơ bản</h3>
+          <p class="package-price">300.000 VND</p>
+          <p class="package-duration">1 ngày</p>
+          <ul class="package-services">
+            <li>Lau dọn sàn nhà</li>
+            <li>Hút bụi toàn bộ phòng</li>
+            <li>Dọn dẹp nhà bếp</li>
+            <li>Vệ sinh nhà vệ sinh</li>
+          </ul>
+          <button class="btn-select">Lựa chọn</button>
+        </div>
+
+        <!-- Standard Package -->
+        <div class="service-package">
+          <h3>Gói Tiêu chuẩn</h3>
+          <p class="package-price">800.000 VND</p>
+          <p class="package-duration">3 ngày</p>
+          <ul class="package-services">
+            <li>Lau dọn toàn bộ phòng</li>
+            <li>Hút bụi thảm và rèm cửa</li>
+            <li>Dọn dẹp nhà bếp và phòng ngủ</li>
+            <li>Vệ sinh thiết bị điện tử</li>
+            <li>Khử mùi và khử khuẩn</li>
+          </ul>
+          <button class="btn-select">Lựa chọn</button>
+        </div>
+
+        <!-- Premium Package -->
+        <div class="service-package">
+          <h3>Gói Cao cấp</h3>
+          <p class="package-price">1.500.000 VND</p>
+          <p class="package-duration">7 ngày</p>
+          <ul class="package-services">
+            <li>Lau dọn toàn bộ nhà cửa</li>
+            <li>Hút bụi kỹ lưỡng cho thảm và sofa</li>
+            <li>Vệ sinh thiết bị gia dụng</li>
+            <li>Khử trùng toàn diện</li>
+            <li>Chăm sóc nội thất cao cấp</li>
+            <li>Vệ sinh sân vườn và ban công</li>
+          </ul>
+          <button class="btn-select">Lựa chọn</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Khuyến mãi -->
+    <section id="sale">
+      <h2>Chọn Gói Khuyến Mãi</h2>
+
+      <!-- Sale Select Form -->
+      <form id="sale-form" class="sale-form">
+        <div class="form-group">
+          <label for="name">Tên</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Nhập tên của bạn"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Nhập email của bạn"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Số điện thoại</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Nhập số điện thoại"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Gửi để nhận mã giảm giá
+        </button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact-footer">
+      <div class="footer-content">
+        <!-- Left Section (Logo and Social Media Icons) -->
+        <div class="footer-logo">
+          <div class="logo">
+            <i class="fas fa-broom"></i>
+            <span class="pet">Clean up</span>
+            <span class="world">4.0</span>
+          </div>
+          <!-- Social Media Links -->
+          <div class="social-media">
+            <a href="https://facebook.com" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Section (Address, Phone, Email) -->
+        <div class="footer-info">
+          <p><strong>Địa chỉ:</strong> Số 86 Cầu Giấy, TP. Hà Nội</p>
+          <p>
+            <strong>Số điện thoại:</strong>
+            <a href="tel:+84987654321">+84 987 654 321</a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:contact@cleanup-pro.com">contact@cleanup-pro.com</a>
+          </p>
+          <p><strong>Giờ làm việc:</strong> 8:00 - 18:00 (Thứ 2 - Thứ 7)</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 CleanUp Pro. Tất cả các quyền được bảo lưu.</p>
+      </div>
+    </footer>
+  </body>
+</html>
